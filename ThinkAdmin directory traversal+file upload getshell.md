@@ -11,12 +11,14 @@ Official website: https://thinkadmin.top/
 
 
 Audit version: ThinkAdmin Version v6.1.53
+
 ![image](https://github.com/1dreamGN/CVE/assets/112082417/35545e1b-e345-40e9-b502-898b98944dc9)
 
 
  
 
 Fofa : body="/admin/api.plugs/script"
+
 ![image](https://github.com/1dreamGN/CVE/assets/112082417/32f29b86-1841-441c-9b91-253dc1e53b44)
 
 
