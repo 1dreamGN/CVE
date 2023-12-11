@@ -1,4 +1,4 @@
-CRMEB file upload vulnerability
+CRMEB logic defect
 
 1. Project introduction
 
