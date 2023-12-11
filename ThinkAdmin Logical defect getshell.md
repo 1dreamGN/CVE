@@ -35,7 +35,8 @@ Click to save the configuration
 After saving, calculate the path to download to the server
 The script is as follows
 
-`function name(string $url, string $ext = '', string $pre = '', string $fun = 'md5'): string
+```
+function name(string $url, string $ext = '', string $pre = '', string $fun = 'md5'): string
 
 {
 
@@ -53,7 +54,8 @@ $url = "webshell path";
 
  
 
-echo '/upload/'.name($url, '', 'down/');`
+echo '/upload/'.name($url, '', 'down/');
+```
 
 
 
